@@ -1,0 +1,64 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Dictionary</title>
+  </head>
+  <body>
+<div class="a">
+
+
+    <img class="img" src="https://media0.giphy.com/media/WmpFLk5RmAD2ZYLjyt/giphy.gif?cid=ecf05e47pe6u51u7rtrze6nr99py4h5wf0qw95bhqkfkyl6h&rid=giphy.gif" alt="">
+    <!-- Search form -->
+    <form id="frmSearch" class="search2" method="get" action="default.html" />
+      <input class="search2" id="txtSearch" type="text" name="serach_bar" placeholder="Search..">
+
+    <input class="search2" type="hidden" name="sitesearch" value="default.html" />
+    <br />
+    </div>
+<div class="alpha">
+  <a href="words/alphaA.html" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">A</a>
+  <a href="words/alphaB.html" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">B</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">C</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">D</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">E</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">F</a>
+  <br>
+  <br>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">G</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">H</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">I</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">J</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">K</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">L</a>
+  <br>
+  <br>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">M</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">N</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">O</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">P</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">Q</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">R</a>
+  <br>
+  <br>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">S</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">T</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">U</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">V</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">W</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">X</a>
+  <br>
+  <br>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">Y</a>
+  <a href="#" class="btn btn-Danger btn-lg active mr-1" role="button" aria-pressed="true">Z</a>
+  </div>
+  <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'https://en.wiktionary.org/wiki/' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+  </body>
+</html>
